@@ -1,0 +1,26 @@
+* {
+  color: honeydew;
+  font-size: 16px;
+}
+p {
+  font-size: 16px;
+  color: rgb(236, 195, 157);
+  text-align: center;
+}
+main {
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid blanchedalmond;
+  box-shadow: 10px 10px 20px rgb(40, 120, 122);
+  border-radius: 30px;
+  background-color: rgb(76, 175, 154);
+}
+h1 {
+  color: rgb(155, 30, 30);
+}
+
+b {
+  color: rgb(155, 30, 30);
+  font-size: 20px;
+}

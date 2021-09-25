@@ -1,0 +1,149 @@
+.header {
+  background: rgb(6, 248, 107);
+  background: linear-gradient(
+    rgb(3, 245, 124) 0%,
+    rgba(17, 230, 70, 1) 25%,
+    rgba(56, 229, 236, 1) 66%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 1px solid;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 50% 25%;
+  height: 25%;
+}
+
+.title {
+  border: 2px solid rgb(214, 167, 12);
+}
+
+ul {
+  text-decoration: none;
+}
+
+.linea {
+  background-color: saddlebrown;
+  white: 100%;
+  height: 7px;
+}
+.flecha {
+  display: none;
+}
+.item {
+  border: 1px solid rgb(185, 145, 11);
+  background-color: rgb(250, 193, 4);
+
+  height: 15px;
+  margin: 3px;
+  border-radius: 10px;
+  list-style: none;
+
+  font-size: 12px;
+  text-align: center;
+  box-shadow: 5px 5px 5px 0px rgb(83, 64, 1);
+}
+
+.nav_item {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 4px rgb(185, 145, 11);
+  width: 100%;
+  padding: 0px;
+}
+
+.galeria {
+  font-family: "open sans";
+}
+.galeria h1 {
+  text-align: center;
+  margin: 20px 0 15px 0;
+  font-weight: 300;
+}
+.linea2 {
+  border-top: 5px solid #0077c0;
+}
+.contenedor-imagenes {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 3px;
+}
+.contenedor-imagenes .imagen {
+  width: 250px;
+  position: relative;
+  height: 250px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+}
+.imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(56, 229, 236, 1);
+}
+a:hover {
+  color: antiquewhite;
+}
+
+@media screen and (min-width: 331px) and (max-width: 672px) {
+  body {
+    background-color: antiquewhite;
+  }
+  p {
+    display: none;
+  }
+  .flecha {
+    display: block;
+  }
+  .img {
+    width: 120px;
+    height: 100px;
+  }
+  .icono {
+    width: 35px;
+    height: 35px;
+  }
+  .logo {
+    width: 100px;
+    height: 80px;
+  }
+}
+/*pequeño ms*/
+@media screen and (min-width: 216px) and (max-width: 330px) {
+  .ms1 {
+    width: 100%;
+  }
+  body {
+    background-color: beige;
+  }
+  .flecha {
+    display: block;
+  }
+
+  .registrarse {
+    display: none;
+  }
+  .img {
+    width: 70px;
+    height: 65px;
+  }
+  .icono {
+    width: 35px;
+    height: 35px;
+  }
+  .logo {
+    width: 90px;
+    height: 70px;
+  }
+}
